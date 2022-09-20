@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="554.0" prefWidth="556.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mySQLOperations.controllers.AddStudentController">
+   <children>
+      <Label layoutX="184.0" layoutY="23.0" text="Student Details">
+         <font>
+            <Font name="Century Gothic" size="26.0" />
+         </font>
+      </Label>
+      <Label layoutX="30.0" layoutY="175.0" text="Name">
+         <font>
+            <Font name="Century Gothic" size="26.0" />
+         </font>
+      </Label>
+      <Label layoutX="30.0" layoutY="243.0" text="Email">
+         <font>
+            <Font name="Century Gothic" size="26.0" />
+         </font>
+      </Label>
+      <Label layoutX="30.0" layoutY="334.0" text="Address">
+         <font>
+            <Font name="Century Gothic" size="26.0" />
+         </font>
+      </Label>
+      <Label layoutX="30.0" layoutY="109.0" text="ID">
+         <font>
+            <Font name="Century Gothic" size="26.0" />
+         </font>
+      </Label>
+      <Label layoutX="30.0" layoutY="404.0" text="Phone">
+         <font>
+            <Font name="Century Gothic" size="26.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtStudentID" layoutX="155.0" layoutY="106.0" prefHeight="40.0" prefWidth="346.0" promptText="Enter id">
+         <font>
+            <Font name="Century Gothic" size="15.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="txtStudentName" layoutX="155.0" layoutY="175.0" prefHeight="40.0" prefWidth="346.0" promptText="Enter name">
+         <font>
+            <Font name="Century Gothic" size="15.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="txtStudentEmail" layoutX="155.0" layoutY="240.0" prefHeight="40.0" prefWidth="346.0" promptText="Enter email">
+         <font>
+            <Font name="Century Gothic" size="15.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="txtStudentAddress" layoutX="155.0" layoutY="331.0" prefHeight="40.0" prefWidth="346.0" promptText="Enter address">
+         <font>
+            <Font name="Century Gothic" size="15.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="txtStudentPhone" layoutX="154.0" layoutY="401.0" prefHeight="40.0" prefWidth="346.0" promptText="Enter phone">
+         <font>
+            <Font name="Century Gothic" size="15.0" />
+         </font>
+      </TextField>
+      <Button layoutX="30.0" layoutY="474.0" mnemonicParsing="false" onAction="#saveStudentData" prefHeight="52.0" prefWidth="116.0" text="Save">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
